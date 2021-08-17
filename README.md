@@ -47,3 +47,11 @@ search | `문자열.search(정규식)` | 일치하는 문자열의 인덱스(Num
 replace | `문자열.replace(정규식, 대체문자)` | 일치하는 문자열을 대체하고 문자열(String) 반환
 split | `문자열.split(정규식)` | 일치하는 문자열을 분할하여 배열(Array)로 반환
 toString | `생성자_정규식.toString()` | 생성자 함수 방식의 정규식을 리터럴 방식의 문자열(String)로 반환
+
+## 플래그(옵션)
+
+플래그 | 설명
+--|--
+g | 모든 문자 일치(global)
+i | 영어 대소문자를 구분 않고 일치(ignore case)
+m | 여러 줄 일치(multi line)

@@ -7,12 +7,17 @@ abbcccdddd
 `
 
 // const regexp = new RegExp('the', 'gi')
-const regexp1 = /the/gi
-console.log(str.match(regexp1))
+// const regexp1 = /the/gi
+// console.log(str.match(regexp1))
 
-const regexp2 = /fox/gi
-console.log(regexp2.test(str))
+// const regexp2 = /fox/gi
+// console.log(regexp2.test(str))
 
-const regexp = /fox/gi
-str = str.replace(regexp, 'AAA')
-console.log(str)
+// const regexp = /fox/gi
+// str = str.replace(regexp, 'AAA')
+// console.log(str)
+
+const regexp = /the/g
+console.log(str.match(regexp))
+
+console.log(str.match(/\.$/gi))
