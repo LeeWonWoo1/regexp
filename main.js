@@ -17,7 +17,25 @@ abbcccdddd
 // str = str.replace(regexp, 'AAA')
 // console.log(str)
 
-const regexp = /the/g
-console.log(str.match(regexp))
+// const regexp = /the/g
+// console.log(str.match(regexp))
 
-console.log(str.match(/\.$/gi))
+// console.log(str.match(/\.$/gi))
+
+// console.log(str.match(/d$/g))
+
+// console.log(str.match(/./g))
+
+// console.log(str.match(/h..p/g))
+
+// console.log(str.match(/fox|dog/g))
+
+// console.log(str.match(/https?/g))
+
+// console.log(str.match(/d{2}/))
+// console.log(str.match(/d{2}/g))
+
+// console.log(str.match(/d{2,}/g))
+
+// console.log(str.match(/\w{2,3}/g))
+// console.log(str.match(/\b\w{2,3}\b/g))
