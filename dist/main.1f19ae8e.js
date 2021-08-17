@@ -138,8 +138,21 @@ var str = "\n010-1234-5678\ntheabc@gmail.com\nhttps://www.omdbapi.com/?apikey=5f
 // console.log(str.match(/d{2}/g))
 // console.log(str.match(/d{2,}/g))
 // console.log(str.match(/\w{2,3}/g))
+// console.log(str.match(/\b\w{2,3}\b/g))
+// console.log(str.match(/[fox]/g))
+// console.log(str.match(/[0-9]/g))
+// console.log(str.match(/[0-9]{1,}/g))
+// console.log(str.match(/[가-힣]{1,}/g))
+// console.log(str.match(/\w/g))
+// console.log(str.match(/\bf\w{1,}\b/g))
+// console.log(str.match(/\d/g))
+// console.log(str.match(/\d{1,}/g))
+// console.log(str.match(/\s/g))
+// const h = `  the hello  world   !
+// `
+// console.log(h.replace(/\s/g, ''))
 
-console.log(str.match(/\b\w{2,3}\b/g));
+console.log(str.match(/.{1,}(?=@)/g));
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -168,7 +181,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40519" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44505" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

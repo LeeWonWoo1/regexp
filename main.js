@@ -39,3 +39,27 @@ abbcccdddd
 
 // console.log(str.match(/\w{2,3}/g))
 // console.log(str.match(/\b\w{2,3}\b/g))
+
+// console.log(str.match(/[fox]/g))
+
+// console.log(str.match(/[0-9]/g))
+// console.log(str.match(/[0-9]{1,}/g))
+
+// console.log(str.match(/[가-힣]{1,}/g))
+
+// console.log(str.match(/\w/g))
+
+// console.log(str.match(/\bf\w{1,}\b/g))
+
+// console.log(str.match(/\d/g))
+// console.log(str.match(/\d{1,}/g))
+
+// console.log(str.match(/\s/g))
+// const h = `  the hello  world   !
+
+// `
+// console.log(h.replace(/\s/g, ''))
+
+// console.log(str.match(/.{1,}(?=@)/g))
+
+// console.log(h.match(/(?<=@).{1,}/g))
