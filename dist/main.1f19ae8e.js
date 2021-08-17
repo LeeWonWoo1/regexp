@@ -118,9 +118,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"main.js":[function(require,module,exports) {
-var str = "\n010-1234-5678\ntheabc@gmail.com\nhttps://www.omdbapi.com/?apikey=5f6c9466&s=frozen\nThe quick brown fox jumps over the lazy dog.\nabbcccdddd\n";
-var regexp = new RegExp('the', 'gi');
-console.log(str.match(regexp));
+var str = "\n010-1234-5678\ntheabc@gmail.com\nhttps://www.omdbapi.com/?apikey=5f6c9466&s=frozen\nThe quick brown fox jumps over the lazy dog.\nabbcccdddd\n"; // const regexp = new RegExp('the', 'gi')
+
+var regexp1 = /the/gi;
+console.log(str.match(regexp1));
+var regexp2 = /fox/gi;
+console.log(regexp2.test(str));
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -149,7 +152,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42519" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44491" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
